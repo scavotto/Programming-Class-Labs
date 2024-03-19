@@ -6,7 +6,8 @@ In this lab, you add the input and output statements to a partially completed Ja
 
 _Note: Variables have been declared for you._
 
-### Task 1: Write the simulated `housekeeping()` function that contains the prompts and input statements to retrieve a year, a month, and a day from the user. Include the output statements in the simulated `endOfJob()` function.
+### Task 1: 
+Write the simulated `housekeeping()` function that contains the prompts and input statements to retrieve a year, a month, and a day from the user. Include the output statements in the simulated `endOfJob()` function.
 
 The format of the output is as follows:
 
