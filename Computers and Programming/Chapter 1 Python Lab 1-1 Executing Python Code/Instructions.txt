@@ -1,0 +1,3 @@
+Task 1: Modify the program so it displays I'm learning how to program in Python. Execute the program.
+
+Task 2: Modify the Python program so it prints two lines of output. Add a second output statement that displays That's awesome!. Execute the program.
