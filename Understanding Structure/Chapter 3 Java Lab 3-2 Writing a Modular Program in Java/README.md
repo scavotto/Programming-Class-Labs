@@ -6,7 +6,8 @@ In this lab, you add the input and output statements to a partially completed Ja
 
 _Note: Variables have been declared for you._
 
-### Task 1: Write the simulated `housekeeping()` function that contains the prompts and input statements to retrieve a year, a month, and a day from the user. Include the output statements in the simulated `endOfJob()` function.
+### Task 1: 
+Write the simulated `housekeeping()` function that contains the prompts and input statements to retrieve a year, a month, and a day from the user. Include the output statements in the simulated `endOfJob()` function.
 
 The format of the output is as follows:
 
@@ -16,30 +17,29 @@ OR
 
 month/day/year is an invalid date.
 
-	```java
-
+	
 	The rest of the program is written for you.
 
 	Execute the program entering the following:
 
 	- month = 5, day = 32, year = 2014.
 	- month = 9, day = 21, year = 2002.
-	```
+	
 
 An example of the program is shown below:
 
-	```java
+	
 	Enter year: 2002
 	Enter month: 9
 	Enter day: 21
 	9/21/2002 is a valid date.
-	```
+	
 
 ### Simulated `housekeeping()` function
 
-	```java
+	
 	import java.util.Scanner;
-	```
+	
 
 	Scanner input = new Scanner(System.in);
 
@@ -51,17 +51,17 @@ An example of the program is shown below:
 
 	System.out.print("Enter day: ");
 	int day = input.nextInt();
-	```
+	
 
 ### Simulated `housekeeping()` function
 
-	```java
+	
 	import java.util.Scanner;
-	```
+	
 
 Scanner input = new Scanner(System.in);
 
-	``` java
+	 java
 	System.out.print("Enter year: ");
 	int year = input.nextInt();
 
@@ -70,14 +70,14 @@ Scanner input = new Scanner(System.in);
 
 	System.out.print("Enter day: ");
 	int day = input.nextInt();
-	```
+	
 
 Simulated endOfJob() function
 
-	```java
+	
 	if (year > 0 && month >= 1 && month <= 12 && day >= 1 && day <= 31) {
 		System.out.println(month + "/" + day + "/" + year + " is a valid date.");
 	} else {
 		System.out.println(month + "/" + day + "/" + year + " is an invalid date.");
 	}
-	```
+	
