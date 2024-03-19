@@ -16,15 +16,14 @@ OR
 
 month/day/year is an invalid date.
 
-	```java
-
+	
 	The rest of the program is written for you.
 
 	Execute the program entering the following:
 
 	- month = 5, day = 32, year = 2014.
 	- month = 9, day = 21, year = 2002.
-	```
+	
 
 An example of the program is shown below:
 
